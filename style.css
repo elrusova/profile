@@ -1,0 +1,99 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container-grey {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container-grey {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: larger;
+  color: #020300;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: medium;
+  font-size: 40px;
+  color: #36311F;
+  margin: 0px 0px;
+}
+
+.btn-cool-grey {
+  font-family: 'Poppins', sans-serif;
+  font-weight: medium;
+  color: #020300;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #7d8ca3;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+.btn-cool-grey:hover {
+  background-color: #59544b;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #020300;
+  font-size: 15px;
+  margin: 30px;
+}
+
+.container-grey {
+  background: #CAD9E6;
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgb(139, 138, 138);
+  width: 60%;
+  margin: 4px auto;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 160px;
+  border: 2px solid #7d8ca3;
+  box-shadow: 0 5px 10px rgb(139, 138, 138);
+}
+
+#list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+#list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: #59544b;
+}
+
+
+#list-inline > li > a {
+  font-size: 45px;
+  color: #5b7993;
+}
+
+i:hover {
+  color: #59544b;
+}
